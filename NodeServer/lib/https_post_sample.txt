@@ -1,0 +1,59 @@
+
+		//XML Request Body
+		var post_data = "<QUERIES>" +
+				"<LANG>eng</LANG>" +
+				"<AUTH>" +
+				"<CLIENT>" + client_key + "</CLIENT>" +
+				"<USER>" + user_key + "</USER>" +
+				"</AUTH>" +
+				"<QUERY CMD=\"ALBUM_SEARCH\">" +
+				"<MODE>SINGLE_BEST_COVER</MODE>" +
+				(typeof details.artist == "string" ? ("<TEXT TYPE=\"ARTIST\">" + details.artist + "</TEXT>") : "") +
+				(typeof details.song == "string" ? ("<TEXT TYPE=\"TRACK_TITLE\">" + details.song + "</TEXT>") : "") +
+				(typeof details.album == "string" ? ("<TEXT TYPE=\"ALBUM_TITLE\">" + details.album + "</TEXT>") : "") +
+				"</QUERY>" +
+				"</QUERIES>";
+		
+		//The API URL is https://c****.web.cddbp.net/webapi/xml/1.0/ where **** are characters of the client key preceding the dash.
+		var post_options = {
+			"hostname" : ("c" + client_key.split("-")[0] + ".web.cddbp.net"),
+			"port" : 443,
+			"path" : "/webapi/xml/1.0/",
+			"method" : "POST",
+			"headers" : {
+				"Content-Type" : "text/xml",
+				"Content-Length" : post_data.length,
+				"User-agent" : "nodejs"
+			}
+		};		
+		
+
+		console.log(post_options);
+		
+		var request = https.request(post_options, function(res) {
+			res.setEncoding('utf8');
+		    
+			var responseText = "";
+			res.on('data', function (chunk) {
+				responseText += chunk;
+			});
+			res.on('end', function() {
+				//We now have the full data!!
+				if(res.statusCode===200) {
+					console.log(responseText);
+					var xml_parse = new xml2js.Parser();
+					xml_parse.parseString(responseText, function(err, data) {
+						//XML has been parsed. Pull out the relevant data and invoke the callback
+						console.log(data.RESPONSES.RESPONSE[0].ALBUM[0].URL[0]._);
+					});
+				} else {
+					callback({"error" : true, "error_msg" : ("HTTP error, status " + res.statusCode + ", " + responseText)});
+				}
+			});
+		});
+		request.on('error', function(e) {
+			//Something went wrong, send back an error object
+			callback({"error" : true, "error_msg" : e.message});
+		});
+		request.write(post_data);
+		request.end();
