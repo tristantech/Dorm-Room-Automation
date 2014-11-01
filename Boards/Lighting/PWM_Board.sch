@@ -5384,7 +5384,6 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 <part name="SUPPLY4" library="1_SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SJ4" library="1_SparkFun-Passives" deviceset="SOLDERJUMPER_2WAY" device="S"/>
 <part name="SJ5" library="1_SparkFun-Passives" deviceset="SOLDERJUMPER_2WAY" device="S"/>
-<part name="SJ6" library="1_SparkFun-Passives" deviceset="SOLDERJUMPER_2WAY" device="S"/>
 <part name="SUPPLY6" library="1_SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="R1" library="1_SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="160"/>
 <part name="STANDOFF1" library="1_SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
@@ -5428,7 +5427,6 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 <part name="SUPPLY7" library="1_SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SJ2" library="1_SparkFun-Passives" deviceset="SOLDERJUMPER_2WAY" device="S"/>
 <part name="SJ3" library="1_SparkFun-Passives" deviceset="SOLDERJUMPER_2WAY" device="S"/>
-<part name="SJ7" library="1_SparkFun-Passives" deviceset="SOLDERJUMPER_2WAY" device="S"/>
 <part name="SUPPLY8" library="1_SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND-ISO8" library="1_SparkFun-Aesthetics" deviceset="GND-ISO" device=""/>
 <part name="GND-ISO9" library="1_SparkFun-Aesthetics" deviceset="GND-ISO" device=""/>
@@ -5454,13 +5452,13 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 <part name="GND5" library="1_SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND6" library="1_SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND7" library="1_SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$1" library="0_Tristan's_Lib" deviceset="PCA9685" device=""/>
 <part name="U$3" library="0_Tristan's_Lib" deviceset="PCA9685" device=""/>
 <part name="JP5" library="1_SparkFun-Connectors" deviceset="M02" device="3.5MM"/>
 <part name="GND4" library="1_SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND8" library="1_SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND9" library="1_SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND10" library="1_SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="U$2" library="0_Tristan's_Lib" deviceset="PCA9685" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5473,7 +5471,6 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 <instance part="SUPPLY4" gate="G$1" x="83.82" y="68.58"/>
 <instance part="SJ4" gate="G$1" x="53.34" y="17.78" rot="R180"/>
 <instance part="SJ5" gate="G$1" x="50.8" y="25.4" rot="R180"/>
-<instance part="SJ6" gate="G$1" x="48.26" y="33.02" rot="R180"/>
 <instance part="SUPPLY6" gate="G$1" x="48.26" y="40.64"/>
 <instance part="R1" gate="G$1" x="238.76" y="-48.26"/>
 <instance part="STANDOFF1" gate="G$1" x="266.7" y="-78.74"/>
@@ -5486,7 +5483,7 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 <instance part="JP3" gate="G$1" x="271.78" y="-30.48"/>
 <instance part="GND-ISO1" gate="G$1" x="53.34" y="5.08"/>
 <instance part="GND-ISO2" gate="G$1" x="63.5" y="5.08"/>
-<instance part="GND-ISO3" gate="G$1" x="83.82" y="5.08"/>
+<instance part="GND-ISO3" gate="G$1" x="99.06" y="5.08"/>
 <instance part="GND-ISO4" gate="G$1" x="218.44" y="-76.2"/>
 <instance part="GND-ISO5" gate="G$1" x="228.6" y="-76.2"/>
 <instance part="GND-ISO6" gate="G$1" x="248.92" y="-76.2"/>
@@ -5517,7 +5514,6 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 <instance part="SUPPLY7" gate="G$1" x="213.36" y="68.58" rot="MR0"/>
 <instance part="SJ2" gate="G$1" x="243.84" y="17.78" rot="MR180"/>
 <instance part="SJ3" gate="G$1" x="246.38" y="25.4" rot="MR180"/>
-<instance part="SJ7" gate="G$1" x="248.92" y="33.02" rot="MR180"/>
 <instance part="SUPPLY8" gate="G$1" x="248.92" y="40.64" rot="MR0"/>
 <instance part="GND-ISO8" gate="G$1" x="243.84" y="5.08" rot="MR0"/>
 <instance part="GND-ISO9" gate="G$1" x="233.68" y="5.08" rot="MR0"/>
@@ -5543,13 +5539,13 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 <instance part="GND5" gate="1" x="45.72" y="109.22"/>
 <instance part="GND6" gate="1" x="45.72" y="139.7"/>
 <instance part="GND7" gate="1" x="45.72" y="175.26"/>
-<instance part="U$1" gate="G$1" x="213.36" y="35.56" rot="MR0"/>
 <instance part="U$3" gate="G$1" x="83.82" y="35.56"/>
 <instance part="JP5" gate="G$1" x="292.1" y="-27.94" rot="R180"/>
 <instance part="GND4" gate="1" x="251.46" y="81.28"/>
 <instance part="GND8" gate="1" x="251.46" y="109.22"/>
 <instance part="GND9" gate="1" x="251.46" y="139.7"/>
 <instance part="GND10" gate="1" x="251.46" y="175.26"/>
+<instance part="U$2" gate="G$1" x="213.36" y="35.56" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -5701,12 +5697,15 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 <pinref part="SJ5" gate="G$1" pin="3"/>
 <wire x1="53.34" y1="30.48" x2="50.8" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="30.48" x2="50.8" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="SJ6" gate="G$1" pin="3"/>
 <wire x1="50.8" y1="38.1" x2="48.26" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="38.1" x2="48.26" y2="40.64" width="0.1524" layer="91"/>
 <junction x="50.8" y="30.48"/>
-<junction x="48.26" y="38.1"/>
 <pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
+<wire x1="68.58" y1="27.94" x2="63.5" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="27.94" x2="63.5" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="30.48" x2="53.34" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="A0"/>
+<junction x="53.34" y="30.48"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="6"/>
@@ -5728,7 +5727,7 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 <segment>
 <pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
 <wire x1="213.36" y1="60.96" x2="213.36" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
+<pinref part="U$2" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="SJ2" gate="G$1" pin="3"/>
@@ -5736,11 +5735,9 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 <pinref part="SJ3" gate="G$1" pin="3"/>
 <wire x1="243.84" y1="30.48" x2="246.38" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="30.48" x2="246.38" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="SJ7" gate="G$1" pin="3"/>
 <wire x1="246.38" y1="38.1" x2="248.92" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="38.1" x2="248.92" y2="40.64" width="0.1524" layer="91"/>
 <junction x="246.38" y="30.48"/>
-<junction x="248.92" y="38.1"/>
 <pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
@@ -5758,7 +5755,7 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 <segment>
 <wire x1="228.6" y1="53.34" x2="241.3" y2="53.34" width="0.1524" layer="91"/>
 <label x="241.3" y="53.34" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U$1" gate="G$1" pin="SDA"/>
+<pinref part="U$2" gate="G$1" pin="SDA"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -5775,7 +5772,7 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 <segment>
 <wire x1="228.6" y1="50.8" x2="241.3" y2="50.8" width="0.1524" layer="91"/>
 <label x="241.3" y="50.8" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U$1" gate="G$1" pin="SCL"/>
+<pinref part="U$2" gate="G$1" pin="SCL"/>
 </segment>
 </net>
 <net name="OE" class="0">
@@ -5796,7 +5793,7 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 <segment>
 <wire x1="228.6" y1="43.18" x2="241.3" y2="43.18" width="0.1524" layer="91"/>
 <label x="241.3" y="43.18" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U$1" gate="G$1" pin="OE"/>
+<pinref part="U$2" gate="G$1" pin="OE"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -5809,15 +5806,11 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 </net>
 <net name="GND-ISO" class="0">
 <segment>
-<pinref part="SJ6" gate="G$1" pin="1"/>
-<wire x1="48.26" y1="27.94" x2="48.26" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="SJ5" gate="G$1" pin="1"/>
-<wire x1="48.26" y1="20.32" x2="50.8" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="20.32" x2="50.8" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="SJ4" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="12.7" x2="53.34" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="12.7" x2="53.34" y2="7.62" width="0.1524" layer="91"/>
-<junction x="50.8" y="20.32"/>
 <junction x="53.34" y="12.7"/>
 <pinref part="GND-ISO1" gate="G$1" pin="GND-ISO"/>
 </segment>
@@ -5856,8 +5849,7 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 <pinref part="GND-ISO7" gate="G$1" pin="GND-ISO"/>
 </segment>
 <segment>
-<pinref part="SJ7" gate="G$1" pin="1"/>
-<wire x1="248.92" y1="27.94" x2="248.92" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="33.02" x2="248.92" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="SJ3" gate="G$1" pin="1"/>
 <wire x1="248.92" y1="20.32" x2="246.38" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="20.32" x2="246.38" y2="12.7" width="0.1524" layer="91"/>
@@ -5867,6 +5859,10 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 <junction x="246.38" y="20.32"/>
 <junction x="243.84" y="12.7"/>
 <pinref part="GND-ISO8" gate="G$1" pin="GND-ISO"/>
+<wire x1="228.6" y1="27.94" x2="233.68" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="27.94" x2="233.68" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="33.02" x2="248.92" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="A0"/>
 </segment>
 <segment>
 <wire x1="228.6" y1="20.32" x2="233.68" y2="20.32" width="0.1524" layer="91"/>
@@ -5878,17 +5874,18 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 <junction x="233.68" y="17.78"/>
 <junction x="233.68" y="15.24"/>
 <pinref part="GND-ISO9" gate="G$1" pin="GND-ISO"/>
-<pinref part="U$1" gate="G$1" pin="A4"/>
-<pinref part="U$1" gate="G$1" pin="A5"/>
-<pinref part="U$1" gate="G$1" pin="A3"/>
-</segment>
-<segment>
-<pinref part="GND-ISO10" gate="G$1" pin="GND-ISO"/>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="U$2" gate="G$1" pin="A4"/>
+<pinref part="U$2" gate="G$1" pin="A5"/>
+<pinref part="U$2" gate="G$1" pin="A3"/>
 </segment>
 <segment>
 <pinref part="GND-ISO3" gate="G$1" pin="GND-ISO"/>
 <pinref part="U$3" gate="G$1" pin="GND"/>
+<wire x1="99.06" y1="7.62" x2="83.82" y2="7.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND-ISO10" gate="G$1" pin="GND-ISO"/>
+<pinref part="U$2" gate="G$1" pin="GND"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -6502,20 +6499,11 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 <pinref part="JP2" gate="A" pin="46"/>
 </segment>
 </net>
-<net name="N$43" class="0">
-<segment>
-<wire x1="228.6" y1="27.94" x2="233.68" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="27.94" x2="233.68" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="SJ7" gate="G$1" pin="2"/>
-<wire x1="233.68" y1="33.02" x2="243.84" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="A0"/>
-</segment>
-</net>
 <net name="N$44" class="0">
 <segment>
 <pinref part="SJ3" gate="G$1" pin="2"/>
 <wire x1="241.3" y1="25.4" x2="228.6" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="A1"/>
+<pinref part="U$2" gate="G$1" pin="A1"/>
 </segment>
 </net>
 <net name="N$45" class="0">
@@ -6524,16 +6512,7 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 <wire x1="236.22" y1="22.86" x2="236.22" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="SJ2" gate="G$1" pin="2"/>
 <wire x1="236.22" y1="17.78" x2="238.76" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="A2"/>
-</segment>
-</net>
-<net name="N$46" class="0">
-<segment>
-<wire x1="68.58" y1="27.94" x2="63.5" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="27.94" x2="63.5" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="SJ6" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="33.02" x2="53.34" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="A0"/>
+<pinref part="U$2" gate="G$1" pin="A2"/>
 </segment>
 </net>
 <net name="N$47" class="0">
@@ -6554,9 +6533,11 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 </net>
 <net name="N1" class="0">
 <segment>
-<wire x1="187.96" y1="15.24" x2="198.12" y2="15.24" width="0.1524" layer="91"/>
-<label x="198.12" y="15.24" size="1.778" layer="95" rot="R180"/>
-<pinref part="U$1" gate="G$1" pin="Y16"/>
+<wire x1="200.66" y1="53.34" x2="198.12" y2="53.34" width="0.1524" layer="91"/>
+<label x="190.5" y="53.34" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="Y1"/>
+<wire x1="198.12" y1="53.34" x2="190.5" y2="53.34" width="0.1524" layer="91"/>
+<junction x="198.12" y="53.34"/>
 </segment>
 <segment>
 <pinref part="Q25" gate="G$1" pin="G"/>
@@ -6566,9 +6547,11 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 </net>
 <net name="N2" class="0">
 <segment>
-<wire x1="187.96" y1="17.78" x2="198.12" y2="17.78" width="0.1524" layer="91"/>
-<label x="198.12" y="17.78" size="1.778" layer="95" rot="R180"/>
-<pinref part="U$1" gate="G$1" pin="Y15"/>
+<wire x1="200.66" y1="50.8" x2="198.12" y2="50.8" width="0.1524" layer="91"/>
+<label x="190.5" y="50.8" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="Y2"/>
+<wire x1="198.12" y1="50.8" x2="190.5" y2="50.8" width="0.1524" layer="91"/>
+<junction x="198.12" y="50.8"/>
 </segment>
 <segment>
 <pinref part="Q26" gate="G$1" pin="G"/>
@@ -6578,9 +6561,11 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 </net>
 <net name="N3" class="0">
 <segment>
-<wire x1="187.96" y1="20.32" x2="198.12" y2="20.32" width="0.1524" layer="91"/>
-<label x="198.12" y="20.32" size="1.778" layer="95" rot="R180"/>
-<pinref part="U$1" gate="G$1" pin="Y14"/>
+<wire x1="200.66" y1="48.26" x2="198.12" y2="48.26" width="0.1524" layer="91"/>
+<label x="190.5" y="48.26" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="Y3"/>
+<wire x1="198.12" y1="48.26" x2="190.5" y2="48.26" width="0.1524" layer="91"/>
+<junction x="198.12" y="48.26"/>
 </segment>
 <segment>
 <pinref part="Q27" gate="G$1" pin="G"/>
@@ -6590,9 +6575,11 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 </net>
 <net name="N4" class="0">
 <segment>
-<wire x1="187.96" y1="22.86" x2="198.12" y2="22.86" width="0.1524" layer="91"/>
-<label x="198.12" y="22.86" size="1.778" layer="95" rot="R180"/>
-<pinref part="U$1" gate="G$1" pin="Y13"/>
+<wire x1="200.66" y1="45.72" x2="198.12" y2="45.72" width="0.1524" layer="91"/>
+<label x="190.5" y="45.72" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="Y4"/>
+<wire x1="198.12" y1="45.72" x2="190.5" y2="45.72" width="0.1524" layer="91"/>
+<junction x="198.12" y="45.72"/>
 </segment>
 <segment>
 <pinref part="Q28" gate="G$1" pin="G"/>
@@ -6602,9 +6589,11 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 </net>
 <net name="N5" class="0">
 <segment>
-<wire x1="187.96" y1="25.4" x2="198.12" y2="25.4" width="0.1524" layer="91"/>
-<label x="198.12" y="25.4" size="1.778" layer="95" rot="R180"/>
-<pinref part="U$1" gate="G$1" pin="Y12"/>
+<wire x1="200.66" y1="43.18" x2="198.12" y2="43.18" width="0.1524" layer="91"/>
+<label x="190.5" y="43.18" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="Y5"/>
+<wire x1="198.12" y1="43.18" x2="190.5" y2="43.18" width="0.1524" layer="91"/>
+<junction x="198.12" y="43.18"/>
 </segment>
 <segment>
 <pinref part="Q17" gate="G$1" pin="G"/>
@@ -6614,9 +6603,11 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 </net>
 <net name="N6" class="0">
 <segment>
-<wire x1="187.96" y1="27.94" x2="198.12" y2="27.94" width="0.1524" layer="91"/>
-<label x="198.12" y="27.94" size="1.778" layer="95" rot="R180"/>
-<pinref part="U$1" gate="G$1" pin="Y11"/>
+<wire x1="200.66" y1="40.64" x2="198.12" y2="40.64" width="0.1524" layer="91"/>
+<label x="190.5" y="40.64" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="Y6"/>
+<wire x1="198.12" y1="40.64" x2="190.5" y2="40.64" width="0.1524" layer="91"/>
+<junction x="198.12" y="40.64"/>
 </segment>
 <segment>
 <pinref part="Q18" gate="G$1" pin="G"/>
@@ -6626,9 +6617,11 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 </net>
 <net name="N7" class="0">
 <segment>
-<wire x1="187.96" y1="30.48" x2="198.12" y2="30.48" width="0.1524" layer="91"/>
-<label x="198.12" y="30.48" size="1.778" layer="95" rot="R180"/>
-<pinref part="U$1" gate="G$1" pin="Y10"/>
+<wire x1="200.66" y1="38.1" x2="198.12" y2="38.1" width="0.1524" layer="91"/>
+<label x="190.5" y="38.1" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="Y7"/>
+<wire x1="198.12" y1="38.1" x2="190.5" y2="38.1" width="0.1524" layer="91"/>
+<junction x="198.12" y="38.1"/>
 </segment>
 <segment>
 <pinref part="Q19" gate="G$1" pin="G"/>
@@ -6638,9 +6631,11 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 </net>
 <net name="N8" class="0">
 <segment>
-<wire x1="187.96" y1="33.02" x2="198.12" y2="33.02" width="0.1524" layer="91"/>
-<label x="198.12" y="33.02" size="1.778" layer="95" rot="R180"/>
-<pinref part="U$1" gate="G$1" pin="Y9"/>
+<wire x1="200.66" y1="35.56" x2="198.12" y2="35.56" width="0.1524" layer="91"/>
+<label x="190.5" y="35.56" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="Y8"/>
+<wire x1="198.12" y1="35.56" x2="190.5" y2="35.56" width="0.1524" layer="91"/>
+<junction x="198.12" y="35.56"/>
 </segment>
 <segment>
 <pinref part="Q20" gate="G$1" pin="G"/>
@@ -6650,9 +6645,11 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 </net>
 <net name="N9" class="0">
 <segment>
-<wire x1="187.96" y1="35.56" x2="198.12" y2="35.56" width="0.1524" layer="91"/>
-<label x="198.12" y="35.56" size="1.778" layer="95" rot="R180"/>
-<pinref part="U$1" gate="G$1" pin="Y8"/>
+<wire x1="200.66" y1="33.02" x2="198.12" y2="33.02" width="0.1524" layer="91"/>
+<label x="190.5" y="33.02" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="Y9"/>
+<wire x1="198.12" y1="33.02" x2="190.5" y2="33.02" width="0.1524" layer="91"/>
+<junction x="198.12" y="33.02"/>
 </segment>
 <segment>
 <pinref part="Q21" gate="G$1" pin="G"/>
@@ -6662,9 +6659,11 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 </net>
 <net name="N10" class="0">
 <segment>
-<wire x1="187.96" y1="38.1" x2="198.12" y2="38.1" width="0.1524" layer="91"/>
-<label x="198.12" y="38.1" size="1.778" layer="95" rot="R180"/>
-<pinref part="U$1" gate="G$1" pin="Y7"/>
+<wire x1="200.66" y1="30.48" x2="198.12" y2="30.48" width="0.1524" layer="91"/>
+<label x="190.5" y="30.48" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="Y10"/>
+<wire x1="198.12" y1="30.48" x2="190.5" y2="30.48" width="0.1524" layer="91"/>
+<junction x="198.12" y="30.48"/>
 </segment>
 <segment>
 <pinref part="Q22" gate="G$1" pin="G"/>
@@ -6674,9 +6673,11 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 </net>
 <net name="N11" class="0">
 <segment>
-<wire x1="187.96" y1="40.64" x2="198.12" y2="40.64" width="0.1524" layer="91"/>
-<label x="198.12" y="40.64" size="1.778" layer="95" rot="R180"/>
-<pinref part="U$1" gate="G$1" pin="Y6"/>
+<wire x1="200.66" y1="27.94" x2="198.12" y2="27.94" width="0.1524" layer="91"/>
+<label x="190.5" y="27.94" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="Y11"/>
+<wire x1="198.12" y1="27.94" x2="190.5" y2="27.94" width="0.1524" layer="91"/>
+<junction x="198.12" y="27.94"/>
 </segment>
 <segment>
 <pinref part="Q23" gate="G$1" pin="G"/>
@@ -6686,9 +6687,11 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 </net>
 <net name="N12" class="0">
 <segment>
-<wire x1="187.96" y1="43.18" x2="198.12" y2="43.18" width="0.1524" layer="91"/>
-<label x="198.12" y="43.18" size="1.778" layer="95" rot="R180"/>
-<pinref part="U$1" gate="G$1" pin="Y5"/>
+<wire x1="200.66" y1="25.4" x2="198.12" y2="25.4" width="0.1524" layer="91"/>
+<label x="190.5" y="25.4" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="Y12"/>
+<wire x1="198.12" y1="25.4" x2="190.5" y2="25.4" width="0.1524" layer="91"/>
+<junction x="198.12" y="25.4"/>
 </segment>
 <segment>
 <pinref part="Q24" gate="G$1" pin="G"/>
@@ -6698,9 +6701,11 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 </net>
 <net name="N13" class="0">
 <segment>
-<wire x1="187.96" y1="45.72" x2="198.12" y2="45.72" width="0.1524" layer="91"/>
-<label x="198.12" y="45.72" size="1.778" layer="95" rot="R180"/>
-<pinref part="U$1" gate="G$1" pin="Y4"/>
+<wire x1="200.66" y1="22.86" x2="198.12" y2="22.86" width="0.1524" layer="91"/>
+<label x="190.5" y="22.86" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="Y13"/>
+<wire x1="198.12" y1="22.86" x2="190.5" y2="22.86" width="0.1524" layer="91"/>
+<junction x="198.12" y="22.86"/>
 </segment>
 <segment>
 <pinref part="Q29" gate="G$1" pin="G"/>
@@ -6710,9 +6715,11 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 </net>
 <net name="N14" class="0">
 <segment>
-<wire x1="187.96" y1="48.26" x2="198.12" y2="48.26" width="0.1524" layer="91"/>
-<label x="198.12" y="48.26" size="1.778" layer="95" rot="R180"/>
-<pinref part="U$1" gate="G$1" pin="Y3"/>
+<wire x1="200.66" y1="20.32" x2="198.12" y2="20.32" width="0.1524" layer="91"/>
+<label x="190.5" y="20.32" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="Y14"/>
+<wire x1="198.12" y1="20.32" x2="190.5" y2="20.32" width="0.1524" layer="91"/>
+<junction x="198.12" y="20.32"/>
 </segment>
 <segment>
 <pinref part="Q30" gate="G$1" pin="G"/>
@@ -6722,9 +6729,11 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 </net>
 <net name="N15" class="0">
 <segment>
-<wire x1="187.96" y1="50.8" x2="198.12" y2="50.8" width="0.1524" layer="91"/>
-<label x="198.12" y="50.8" size="1.778" layer="95" rot="R180"/>
-<pinref part="U$1" gate="G$1" pin="Y2"/>
+<wire x1="200.66" y1="17.78" x2="198.12" y2="17.78" width="0.1524" layer="91"/>
+<label x="190.5" y="17.78" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="Y15"/>
+<wire x1="198.12" y1="17.78" x2="190.5" y2="17.78" width="0.1524" layer="91"/>
+<junction x="198.12" y="17.78"/>
 </segment>
 <segment>
 <pinref part="Q31" gate="G$1" pin="G"/>
@@ -6734,9 +6743,11 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 </net>
 <net name="N16" class="0">
 <segment>
-<wire x1="187.96" y1="53.34" x2="198.12" y2="53.34" width="0.1524" layer="91"/>
-<label x="198.12" y="53.34" size="1.778" layer="95" rot="R180"/>
-<pinref part="U$1" gate="G$1" pin="Y1"/>
+<wire x1="200.66" y1="15.24" x2="198.12" y2="15.24" width="0.1524" layer="91"/>
+<label x="190.5" y="15.24" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="Y16"/>
+<wire x1="198.12" y1="15.24" x2="190.5" y2="15.24" width="0.1524" layer="91"/>
+<junction x="198.12" y="15.24"/>
 </segment>
 <segment>
 <pinref part="Q32" gate="G$1" pin="G"/>
