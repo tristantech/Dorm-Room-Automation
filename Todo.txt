@@ -1,0 +1,20 @@
+Todo:
+
+---Add IR sensor to audio module
+---ensure window board has window open sensor connector
+---Reset resistor for PDI
+
+---adjust audio in header on amp
+
+---Change out microcontrollers for XMEGA models with AES
+
+---add IR blaster diode
+
+---add motion sensor port
+
+5v smps stdby pin??
+Opamp polarity correct?? 4=vcc, 11=gnd
+current sensor measures negative voltage
+amplifier board dc filter caps and rectifier
+
+Make LiPO charger board
