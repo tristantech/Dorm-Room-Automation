@@ -121,6 +121,7 @@
 <text x="21.59" y="43.18" size="1.016" layer="21">GND SDA 5V SCL</text>
 <text x="12.7" y="36.83" size="1.016" layer="21">-9V 0 9V</text>
 <text x="3.81" y="8.89" size="1.016" layer="21">-12V GND 12V 5V</text>
+<text x="19.05" y="1.27" size="1.016" layer="21">T. Honscheid 11/2014</text>
 </plain>
 <libraries>
 <library name="1_SparkFun-Capacitors">
