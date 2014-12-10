@@ -19102,16 +19102,6 @@ AM/FM/WB w/ RDS</text>
 <wire x1="698.5" y1="439.42" x2="693.42" y2="439.42" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$109" class="0">
-<segment>
-<wire x1="624.84" y1="515.62" x2="624.84" y2="477.52" width="0.1524" layer="91"/>
-<wire x1="624.84" y1="477.52" x2="635" y2="477.52" width="0.1524" layer="91"/>
-<wire x1="635" y1="477.52" x2="635" y2="434.34" width="0.1524" layer="91"/>
-<wire x1="635" y1="434.34" x2="650.24" y2="434.34" width="0.1524" layer="91"/>
-<wire x1="650.24" y1="434.34" x2="650.24" y2="398.78" width="0.1524" layer="91"/>
-<wire x1="650.24" y1="398.78" x2="749.3" y2="398.78" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$110" class="0">
 <segment>
 <pinref part="LED3" gate="G$1" pin="A"/>
